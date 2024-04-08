@@ -29,9 +29,9 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
-
+/* in this when we do positions absolute it will decrease space of section it means it get freed from the parent but actual position remains as it is but pretend like freed */
+/* in this top 50% is taking from postions of above as it has postion relative */
 .ptext {
   position: absolute;
   top: 50%;
@@ -58,6 +58,6 @@ body {
 }
 
 .section-dark {
-  background: #282e34;
-  color: #ddd;
+  background: #;
+  color: #fff;
 }

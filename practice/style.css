@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.top-section {
+  background-color: #559f58;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40px;
+  color: white;
+  align-items: center;
+}
+
+.group1 {
+  padding-left: 100px;
+  margin-left: 100px;
+}
+
+.group2 {
+  margin-left: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  /* background-color: blue; */
+  align-items: center;
+  color: black;
+
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.menu {
+  margin-right: 100px;
+}
+.menu a {
+  margin-right: 60px;
+  color: black;
+  text-decoration: none;
+}
+.logo {
+  margin-left: 40px;
+}
+
+.heading {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 152px;
+  margin-bottom: 60px;
+}
+
+.heading h1,
+.heading p {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.feature {
+  width: 100%;
+  height: 619px;
+}
+
+.feature img {
+  width: 100%;
+  height: 100%; /* This will stretch the image to fill the div, which might distort it */
+  object-fit: cover; /* This helps maintain the aspect ratio but fills the area */
+}
+
+.feature-logo {
+  width: 100%;
+  display: flex;
+  height: 162px;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.feature-logo img {
+  height: 114.69px;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+  height: 946px;
+}
+
+.overview img {
+  width: 588px;
+  height: 786px;
+  object-fit: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.left-overview {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title p {
+  margin-bottom: 20px;
+}
